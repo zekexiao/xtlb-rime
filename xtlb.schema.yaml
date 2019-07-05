@@ -6,6 +6,7 @@ schema:
   name: 小兔两笔
   version: "0.1"
   author:
+    - 苹果兔
     - Linger <linger@paolu.org>
   description: |
     小兔两笔的 Rime 版本。
