@@ -20,6 +20,16 @@
     
  输入法设定内选择“小兔两笔”即可。
 
+### Linux
+```bash
+git clone https://github.com/alluLinger/xtlb-rime.git
+cd xtlb-rime
+sudo ln -s xtlb.dict.yaml /usr/share/rime-data/xtlb.dict.yaml
+sudo ln -s xtlb.schema.yaml /usr/share/rime-data/xtlb.schema.yaml
+```
+直接对源文件软链接，就无需每次修改进入rime目录。
+
+
 ## 说明
 
 码表来自：[小兔两笔输入法](http://xtlb.ys168.com/)
