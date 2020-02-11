@@ -37,7 +37,7 @@ sudo ln -s xtlb.schema.yaml ~/.config/fcitx/rime/xtlb.schema.yaml
 ### iOS iRime
 - AppStore 下载 iRime
 - 在`设置->一般->键盘`内将 iRime 加上
-- 打开电脑快传，将两个 .yaml 文件上传到根目录
+- 打开iRime内的`电脑快传`，将两个 .yaml 文件上传到根目录
 - 下载并修改 `default.yaml` 文件，在 `schema_list`中添加 `- schema: xtlb`
 - iRime 在点击部署，然后选择小兔两笔方案
 
