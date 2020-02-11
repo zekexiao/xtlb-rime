@@ -9,12 +9,7 @@ schema:
     - 苹果兔
     - alluLinger <linger@indev.me>
   description: |
-    小兔两笔的 Rime 版本。
-    码表来自：
-      * http://xtlb.ys168.com/
-  dependencies:
-    小兔两笔
-
+    小兔两笔的 Rime 版本 码表来自：http://xtlb.ys168.com/
 switches:
   - name: ascii_mode
     reset: 0
