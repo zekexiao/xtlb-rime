@@ -2,16 +2,15 @@
 
 小兔两笔 Rime 版本
 
+## 说明
+
+码表来自：[小兔两笔输入法](http://xtlb.ys168.com/)
+
+配置文件参考：[超强两笔RIME平台版](http://fds8866.ys168.com/)
+
 ## 日志
 - 2020/2/11
 	* reborn: 脚本生成dict.yaml，词库与原版一致
-
-- 2019/12/28
-	* update: x 学 -> 想、h 会 -> 和
-
-- 2019/9/9
-	* update: d、j、m、z的首字现在为：d 的、j 就、m 们、z 在
-	* fix:z 字母上的无用代码
 
 - 2019/7/5
 	* init: 初始版本
@@ -35,9 +34,10 @@ sudo ln -s xtlb.schema.yaml ~/.config/fcitx/rime/xtlb.schema.yaml
 ```
 直接对源文件软链接，就无需每次修改进入rime目录。
 
+### iOS iRime
+1.AppStore 下载 iRime
+2.在`设置->一般->键盘`内将 iRime 加上
+3.打开电脑快传，将两个 .yaml 文件上传到根目录
+4.下载并修改 `default.yaml` 文件，在 `schema_list`中添加 `- schema: xtlb`
+5.iRime 在点击部署，然后选择小兔两笔方案
 
-## 说明
-
-码表来自：[小兔两笔输入法](http://xtlb.ys168.com/)
-
-配置文件参考：[超强两笔RIME平台版](http://fds8866.ys168.com/)
