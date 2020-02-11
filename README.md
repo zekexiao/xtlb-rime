@@ -35,9 +35,9 @@ sudo ln -s xtlb.schema.yaml ~/.config/fcitx/rime/xtlb.schema.yaml
 直接对源文件软链接，就无需每次修改进入rime目录。
 
 ### iOS iRime
-1.AppStore 下载 iRime
-2.在`设置->一般->键盘`内将 iRime 加上
-3.打开电脑快传，将两个 .yaml 文件上传到根目录
-4.下载并修改 `default.yaml` 文件，在 `schema_list`中添加 `- schema: xtlb`
-5.iRime 在点击部署，然后选择小兔两笔方案
+- AppStore 下载 iRime
+- 在`设置->一般->键盘`内将 iRime 加上
+- 打开电脑快传，将两个 .yaml 文件上传到根目录
+- 下载并修改 `default.yaml` 文件，在 `schema_list`中添加 `- schema: xtlb`
+- iRime 在点击部署，然后选择小兔两笔方案
 
