@@ -3,12 +3,16 @@
 小兔两笔 Rime 版本
 
 ## 日志
+- 2020/2/11
+	* reborn: 脚本生成dict.yaml，词库与原版一致
+
 - 2019/12/28
 	* update: x 学 -> 想、h 会 -> 和
 
 - 2019/9/9
 	* update: d、j、m、z的首字现在为：d 的、j 就、m 们、z 在
 	* fix:z 字母上的无用代码
+
 - 2019/7/5
 	* init: 初始版本
 
@@ -22,12 +26,12 @@
     
  输入法设定内选择“小兔两笔”即可。
 
-### Linux
+### Linux fcitx-rime
 ```bash
 git clone https://github.com/alluLinger/xtlb-rime.git
 cd xtlb-rime
-sudo ln -s xtlb.dict.yaml /usr/share/rime-data/xtlb.dict.yaml
-sudo ln -s xtlb.schema.yaml /usr/share/rime-data/xtlb.schema.yaml
+sudo ln -s xtlb.dict.yaml ~/.config/fcitx/rime/xtlb.dict.yaml
+sudo ln -s xtlb.schema.yaml ~/.config/fcitx/rime/xtlb.schema.yaml
 ```
 直接对源文件软链接，就无需每次修改进入rime目录。
 
