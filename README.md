@@ -29,8 +29,8 @@
 ```bash
 git clone https://github.com/alluLinger/xtlb-rime.git
 cd xtlb-rime
-sudo ln -s xtlb.dict.yaml ~/.config/fcitx/rime/xtlb.dict.yaml
-sudo ln -s xtlb.schema.yaml ~/.config/fcitx/rime/xtlb.schema.yaml
+sudo ln -s $PWD/xtlb.dict.yaml ~/.config/fcitx/rime/xtlb.dict.yaml
+sudo ln -s $PWD/xtlb.schema.yaml ~/.config/fcitx/rime/xtlb.schema.yaml
 ```
 直接对源文件软链接，就无需每次修改进入rime目录。
 
