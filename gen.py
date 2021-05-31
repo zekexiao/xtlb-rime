@@ -3,7 +3,7 @@
 
 #Tool for parse 小小码表 to rime码表
 
-out = open("xtlb.dict.yaml", "w+")
+out = open("xtlb.dict.yaml", "w+", encoding='utf-8')
 out.write('''#	Rime	dictionary
 #	encoding:	utf-8
 #
@@ -34,7 +34,7 @@ encoder:
 ''')
 
 k = 0
-with open("xtlb.txt", "r") as f:
+with open("xtlb.txt", "r", encoding='utf-8') as f:
     for line in f.readlines():
         if(k < 12):
             k = k + 1 #前十来行没用，中间还有空格，直接跳过
