@@ -4,10 +4,10 @@
 schema:
   schema_id: xtlb
   name: 小兔两笔
-  version: "0.1"
+  version: "0.2"
   author:
     - 苹果兔
-    - alluLinger <linger@indev.me>
+    - alluLinger <xiao@linger.me>
   description: |
     小兔两笔的 Rime 版本 码表来自：http://xtlb.ys168.com/
 switches:
@@ -71,7 +71,8 @@ punctuator:
     "'" : { pair: [ ‘, ’ ] }
     '"' : { pair: [ “, ” ] }
     ' ' : { commit: '　' }
-    '/' : [ 、, ÷ ]    
+    '/' : [ commit: ÷ ]    
+    '\' : [ commit: 、 ]    
     '*' : [ ＊, × ]
     '<' : [ 《, 〈, «, ‹, 〔 ]
     '>' : [ 》, 〉, », ›,  〕]
@@ -81,6 +82,7 @@ punctuator:
     ',' : { commit: ， }
     '.' : { commit: 。 }
     '/' : { commit: 、 }
+    '\' : { commit: 、 }
     ';' : { commit: ； }
     ':' : { commit: ： }
     '!' : { commit: ！ }
