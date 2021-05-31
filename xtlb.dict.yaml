@@ -4,7 +4,7 @@
 
 ---
 name:	xtlb
-version: "final"
+version: "v6.0"
 sort:	original
 use_preset_vocabulary: false
 columns:
@@ -22,7 +22,8 @@ encoder:
      formula: "AaAbBaCa"
    - length_in_range:	[4,	10]
      formula: "AaBaCaZa"
-     
+import_tables:
+  - xtlb.ext
 ...
 
 啊	a
