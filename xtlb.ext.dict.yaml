@@ -4,7 +4,7 @@
 
 ---
 name:	xtlb.ext
-version:	"2021.5.31"
+version:	"2021.6.23"
 use_preset_vocabulary:	true
 ...
 数组	syzn
@@ -23,4 +23,9 @@ use_preset_vocabulary:	true
 左值	zhzf
 右值	yhzf
 返回值	fqhz
-
+切图	qmtg
+飞书	fzsn
+看板	kebd
+圆角	ygjt
+失焦	sejf
+时间戳	smjc
