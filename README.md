@@ -26,6 +26,7 @@
  下载这个 Repo，解压后放置 Rime 文件夹下
  >
     【中州韻-fcitx】 "~/.config/fcitx/rime/"
+    【中州韻-fcitx5】 "~/.local/share/fcitx5/rime/"
     【中州韻-ibus】 "~/.config/ibus/rime/"
     【小狼毫】 "%APPDATA%\Rime"
     【鼠鬚管】 "~/Library/Rime"
@@ -36,9 +37,10 @@
 ```bash
 git clone https://github.com/alluLinger/xtlb-rime.git
 cd xtlb-rime
-sudo ln -s $PWD/xtlb.dict.yaml ~/.config/fcitx/rime/xtlb.dict.yaml
-sudo ln -s $PWD/xtlb.ext.dict.yaml ~/.config/fcitx/rime/xtlb.ext.dict.yaml
-sudo ln -s $PWD/xtlb.schema.yaml ~/.config/fcitx/rime/xtlb.schema.yaml
+sudo ln -s $PWD/default.custom.yaml ~/.local/share/fcitx5/rime/default.custom.yaml
+sudo ln -s $PWD/xtlb.dict.yaml ~/.local/share/fcitx5/rime/xtlb.dict.yaml
+sudo ln -s $PWD/xtlb.ext.dict.yaml ~/.local/share/fcitx5/rime/xtlb.ext.dict.yaml
+sudo ln -s $PWD/xtlb.schema.yaml ~/.local/share/fcitx5/rime/xtlb.schema.yaml
 ```
 直接对源文件软链接，就无需每次修改进入rime目录。
 

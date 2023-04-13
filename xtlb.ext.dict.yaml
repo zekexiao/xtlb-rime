@@ -4,7 +4,7 @@
 
 ---
 name:	xtlb.ext
-version:	"2021.6.23"
+version:	"0.2"
 use_preset_vocabulary:	true
 ...
 数组	syzn
@@ -29,3 +29,4 @@ use_preset_vocabulary:	true
 圆角	ygjt
 失焦	sejf
 时间戳	smjc
+正则 zjzg
