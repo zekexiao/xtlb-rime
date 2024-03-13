@@ -2,6 +2,8 @@
 
 小兔两笔 Rime 版本
 
+https://github.com/zekexiao/xtlb-rime/issues/2
+
 ## 说明
 
 码表来自：[小兔两笔输入法](http://xtlb.ys168.com/)
